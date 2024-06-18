@@ -17,7 +17,9 @@ body{
     flex-direction: column;
     justify-content: center;
     padding: 2% 0;
-
+    position: fixed;
+    left: 0;
+    width: 100vw;
 }
 
 .navegacao__foto{
@@ -34,6 +36,7 @@ body{
     margin: 2%;
     color: #BF751B;
     text-decoration: none;
+    
 }  
 .navegacao__links__link_pedir{
     padding: 1%;
@@ -48,11 +51,15 @@ body{
     background-color: #FFFFFF;
 }
 
+.foto__principal{
+    padding-top: 7%;
+}
 .produto{
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: space-around;
+    padding-top: 7%;
 }
 .produto__titulo{
     font-family: "Montserrat",sans-serif;
@@ -65,7 +72,6 @@ body{
     gap: 50px;
     flex-direction: row;
     justify-content: center;
-
 }
 
 .produto__produtos__link{
@@ -99,6 +105,21 @@ body{
     
 }
 
+.imagem__anp{
+    border: 2px solid #BF751B;
+    border-radius: 20px;
+    margin: 2%;
+    padding-top: 3%;
+    
+}
+
+.imagem__anp__texto{
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding: 2% 35%;
+    
+}
 .apresentacao{
     display: flex;
     flex-direction: row;
@@ -106,7 +127,10 @@ body{
     text-align: center;
     background-color: #164C45;
     padding: 6%;
-    
+    padding-top: 7%;
+    margin: 2%;
+    border-radius: 20px;
+    box-shadow: 5px 10px 8px #1c6057 ;
 }
 
 .apresentacao__imagem{
@@ -128,7 +152,7 @@ body{
 
 .endereco{
     padding: 2%;
-
+    padding-top: 7%;
 }
 .endereco__inicio{
     display: flex;
@@ -155,4 +179,18 @@ body{
     font-size: 25px;
     padding: 1%;
     color: #BF751B;
+}
+
+.rodape{
+    background-color: #164C45;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 20px;
+    box-shadow: 5px 10px 8px #1c6057 ;
+}
+.rodape__texto{
+    font-size: 20px;
+    color: #BF751B;
+    font-family: "Roboto", sans-serif;
 }
